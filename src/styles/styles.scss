@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.title{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.input-type{
+    text-transform: lowercase;
+}
+
+.container-home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/pokedex.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 750px;
+    align-items: center;
+    justify-content: center;
+        a{
+            text-decoration: none !important;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            border: 2px solid #b81111;
+        }
+}
+
+.bubtton-home{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid #b81111;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bubtton-home:hover {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+
+.input-button{
+    margin-top: 255px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+        input{
+            text-align: center;
+            font-family: 'Press Start 2P', cursive;
+        }
+}
+
+.bg-pokedex{
+    width: 500px;
+    height: 500px;
+}
+
+.table-pokedex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-name{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #13133f;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+}
+
+.pokemon-name:hover {
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(51, 49, 49);
+}
+
+.pokemon-infos{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.poke-table{
+    display: flex;
+    flex-direction: column;
+    width: 990px;
+    height: 1910px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infos{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(44, 42, 42);
+}
+
+.basic-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(44, 42, 42);
+}
+
+.map-infos{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+}
+
+.data-map{
+    margin: 0 5px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.data-map-number{
+    width: 100px;
+    margin: 0 5px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.data-map-ability{
+    width: 300px;
+    margin: 0 5px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+.img-pokemon{
+    width: 400px;
+    height: 400px;
+}
+
+
+@media (max-width:768px) {
+    .poke-table{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .infos{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(44, 42, 42);
+    }
+    
+    .map-infos{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 4px;
+    }
+
+    .data-map{
+        width: 290px;
+    }
+    .img-pokemon{
+        width: auto;
+        height: auto;
+    }
+
+}
